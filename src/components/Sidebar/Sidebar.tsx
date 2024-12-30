@@ -27,7 +27,6 @@ import { playlists, subscriptions } from "../../data/subscriptions";
 import { twMerge } from "tailwind-merge";
 import { useSidebarContext } from "../../contexts/SidebarContext";
 import { PageHeaderFirstSection } from "../Header/Header";
-
 export function Sidebar() {
   const { isLargeOpen, isSmallOpen, close } = useSidebarContext();
 
